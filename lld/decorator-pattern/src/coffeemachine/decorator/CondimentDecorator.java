@@ -6,7 +6,7 @@ public abstract class CondimentDecorator extends Beverage {
     private final Beverage beverage;
 
     public CondimentDecorator(Beverage beverage) {
-        super("hello");
+        super(beverage.getDescription());
         this.beverage = beverage;
     }
 
